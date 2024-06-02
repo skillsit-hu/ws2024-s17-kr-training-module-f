@@ -1,6 +1,6 @@
 [
     {
-        "roomId": "101",
+        "id": "101",
         "roomType": "Deluxe",
         "bedType": "King",
         "capacity": 2,
@@ -13,19 +13,19 @@
         ]
     },
     {
-        "roomId": "102",
+        "id": "102",
         "roomType": "Standard",
         "bedType": "Queen",
         "capacity": 2,
         "pricePerNight": 100,
-        "amenities": [
+        "amenitiess": [
             "Wi-Fi",
             "Air Conditioning",
             "TV"
         ]
     },
     {
-        "roomId": "103",
+        "id": "103",
         "roomType": "Suite",
         "bedType": "King",
         "capacity": 4,
@@ -39,7 +39,7 @@
         ]
     },
     {
-        "roomId": "104",
+        "id": "104",
         "roomType": "Single",
         "bedType": "Single",
         "capacity": 1,
@@ -51,7 +51,7 @@
         ]
     },
     {
-        "roomId": "105",
+        "id": "105",
         "roomType": "Double",
         "bedType": "Double",
         "capacity": 2,
@@ -64,7 +64,7 @@
         ]
     },
     {
-        "roomId": "106",
+        "id": "106",
         "roomType": "Deluxe",
         "bedType": "King",
         "capacity": 2,
@@ -77,7 +77,7 @@
         ]
     },
     {
-        "roomId": "107",
+        "id": "107",
         "roomType": "Standard",
         "bedType": "Queen",
         "capacity": 2,
@@ -89,7 +89,7 @@
         ]
     },
     {
-        "roomId": "108",
+        "id": "108",
         "roomType": "Suite",
         "bedType": "King",
         "capacity": 4,
@@ -103,7 +103,7 @@
         ]
     },
     {
-        "roomId": "109",
+        "id": "109",
         "roomType": "Single",
         "bedType": "Single",
         "capacity": 1,
@@ -115,7 +115,7 @@
         ]
     },
     {
-        "roomId": "110",
+        "id": "110",
         "roomType": "Double",
         "bedType": "Double",
         "capacity": 2,
@@ -128,7 +128,7 @@
         ]
     },
     {
-        "roomId": "111",
+        "id": "111",
         "roomType": "Deluxe",
         "bedType": "King",
         "capacity": 2,
@@ -141,7 +141,7 @@
         ]
     },
     {
-        "roomId": "112",
+        "id": "112",
         "roomType": "Standard",
         "bedType": "Queen",
         "capacity": 2,
@@ -153,7 +153,7 @@
         ]
     },
     {
-        "roomId": "113",
+        "id": "113",
         "roomType": "Suite",
         "bedType": "King",
         "capacity": 4,
@@ -167,7 +167,7 @@
         ]
     },
     {
-        "roomId": "114",
+        "id": "114",
         "roomType": "Single",
         "bedType": "Single",
         "capacity": 1,
@@ -179,7 +179,7 @@
         ]
     },
     {
-        "roomId": "115",
+        "id": "115",
         "roomType": "Double",
         "bedType": "Double",
         "capacity": 2,
@@ -192,7 +192,7 @@
         ]
     },
     {
-        "roomId": "116",
+        "id": "116",
         "roomType": "Deluxe",
         "bedType": "King",
         "capacity": 2,
@@ -205,7 +205,7 @@
         ]
     },
     {
-        "roomId": "117",
+        "id": "117",
         "roomType": "Standard",
         "bedType": "Queen",
         "capacity": 2,
@@ -217,7 +217,7 @@
         ]
     },
     {
-        "roomId": "118",
+        "id": "118",
         "roomType": "Suite",
         "bedType": "King",
         "capacity": 4,
@@ -231,7 +231,7 @@
         ]
     },
     {
-        "roomId": "119",
+        "id": "119",
         "roomType": "Single",
         "bedType": "Single",
         "capacity": 1,
@@ -243,7 +243,7 @@
         ]
     },
     {
-        "roomId": "120",
+        "id": "120",
         "roomType": "Double",
         "bedType": "Double",
         "capacity": 2,
