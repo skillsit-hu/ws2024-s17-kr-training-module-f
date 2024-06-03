@@ -82,8 +82,8 @@ There are the following sections in the page:
 
 ### Export/Import Functionality
 
-- Export current room assignments to a CSV file in the format: `bookingId,roomId` when the officer clicks the Export button. The filename should be `hhh-bookings.csv`.
-- Import room assignments from a CSV file with the same format, overwriting current assignments.
+- Export current room assignments to a CSV file in the format: `bookingId,roomId` when the user clicks the Export button. The suggested filename should be `hhh-bookings.csv`.
+- Import room assignments from a CSV file with the same format, overwriting current assignments. Ensure that no two reservations overlap for the same room on the same day, except when one reservation's check-out date coincides with another's check-in date. If such an error is detected in the imported data, display an error message and retain the existing assignments.
 
 ### Fullscreen Mode
 
@@ -97,4 +97,4 @@ There are the following sections in the page:
 - You should consider the accessibility of your application.
 - Follow the provided design layout closely, although design implementation is not a key evaluation aspect.
 - Ensure your tool meets the described functionality and interaction requirements.
-- Focus on creating a user-friendly and responsive interface.
+- Focus on creating a user-friendly interface.
