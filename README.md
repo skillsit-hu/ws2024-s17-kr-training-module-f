@@ -30,17 +30,16 @@ There are following sections in the page:
 
 ![Calendar View](assets/design/hhh-booking-assignments.png)
 
-- Display a calendar view showing 15 days at a time.
-- Initially, show the interval from June 1 to June 15.
+- Display a calendar view showing 15 days at a time. Initially, show the interval from June 1 to June 15.
+- In the header, the numbers of the days are displayed.
+- After the header, each row of the calendar represents a room in the hotel, and each cell represents a possible assignment of a booking to that room for a day.
+- Each line starts with a room ID. The background color of the room ID should match the corresponding room type button's background color.
+- Day boxes with assigned booking should display the last three characters of the booking ID. Day boxes with assigned booking background color should be `#DDXDYD`, where `XY` are the last two digits of the booking ID. (E.g booking code: `B125`, background color code: `#DD2D5D`). Day boxes without assigned booking show `---` string.
 - Clicking on a day in the calendar header adjusts the view to center around the selected day.
   - Days 1-7: Show June 1-15.
   - Days 24-30: Show June 16-30.
   - Other days: Center the selected day in a 15-day interval.
-- After the header, each row of the calendar represents a room in the hotel, and each cell represents a possible assignment of a booking to that room for a day.
 - If the check-out date of one booking and the check-in date of another booking fall on the same day for the same room, both booking IDs should be displayed in the cell in vertical order.
-- The background color of the Room ID should match the corresponding room type button's background color.
-- Day boxes with assigned booking should display the last three characters of the booking ID.
-- Day boxes with assigned booking background color should be `#DDXDYD`, where `XY` are the last two digits of the booking ID. (E.g booking code: `B125`, background color code: `#DD2D5D`)
 
 ### Room Type Filtering
 
