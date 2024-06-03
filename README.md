@@ -16,10 +16,10 @@ Alternatively, `rooms.json` and `bookings.json` will be provided in case you can
 
 There are following sections in the page:
 
-- Room type selection area
+- Room type filtering
 - Unassigned bookings list area
 - Calendar with bookings
-- Full screen button
+- Fullscreen button
 - Reset button
 - Export button
 - Import button
@@ -36,16 +36,17 @@ There are following sections in the page:
   - Days 1-7: Show June 1-15.
   - Days 24-30: Show June 16-30.
   - Other days: Center the selected day in a 15-day interval.
-- Room ID background color should match the corresponding room type button color.
+- After the header, each row of the calendar represents a room in the hotel, and each cell represents a possible assignment of a booking to that room for a day.
+- The background color of the Room ID should match the corresponding room type button's background color.
 - Day boxes with assigned booking should display the last three characters of the booking ID.
 - Day boxes with assigned booking background color should be `#ddddxx`, where `xx` are the last two digits of the booking ID.
 
 ### Room Type Filtering
 
-- Display only bookings for the selected room type in the calendar and unassigned list.
+- Allow filtering of room types with buttons on the right side of the screen.
+- Display only bookings for the selected room type in the calendar view and the unassigned booking list.
 - Deluxe is selected initially.
-- The selected room type button has a thicker border.
-- Room type can be changed using buttons on the right side of the interface.
+- The currently selected room type button has a thicker border.
 
 ### Unassigned Booking List
 
@@ -56,12 +57,12 @@ There are following sections in the page:
   - Check-in date
   - Check-out date
   - Number of guests
-- Unassigned booking button borders should have the same color as the corresponding room type button.
-- Clicking an unassigned booking centers its interval in the calendar view. If the booking interval is an odd number of days, one less day should be displayed before the check-in date than after the check-out day.
+- The border of the unassigned bookings should have the same color as the corresponding room type button.
+- Clicking an unassigned booking centers its interval in the calendar view. If the booking interval is an odd number of days, one less day should be displayed before the check-in date than after the check-out day. Bookings longer than 15 days don't have to be supported.
 
 ### Drag and Drop Functionality
 
-- Allow dragging unassigned bookings to room lines in the calendar.
+- Allow dragging unassigned bookings to room rows in the calendar.
 - Enable drop only if the room is free during the booking interval.
 - Successful drop displays the booking ID in the calendar and removes it from the unassigned list.
 - Dragging a booking from the calendar to the unassigned list area unassigns the booking.
