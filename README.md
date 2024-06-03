@@ -8,13 +8,13 @@ Haeundae Horizon Hotel is a luxurious four-star hotel located near the picturesq
 
 You are tasked with creating a prototype of an interactive tool that helps hotel officers assign rooms to bookings. The prototype is limited to handling bookings for June 2024. The tool should display a calendar view, manage room assignments, and provide functionalities such as filtering by room type, drag-and-drop booking assignments, and exporting/importing assignments.
 
-Original data should be fetched from the provided backend using the following endpoints: 
+Original data should be fetched from the provided backend using the following endpoints:
 - `http://hh-hotel.kr/api/v1/rooms`
 - `http://hh-hotel.kr/api/v1/bookings`
 
 Alternatively, `rooms.json` and `bookings.json` will be provided in case you can't fetch from the server.
 
-There are following sections in the page:
+There are the following sections in the page:
 
 - Room type filtering
 - Unassigned bookings list area
@@ -34,7 +34,7 @@ There are following sections in the page:
 - In the header, the numbers of the days are displayed.
 - After the header, each row of the calendar represents a room in the hotel, and each cell represents a possible assignment of a booking to that room for a day.
 - Each line starts with a room ID. The background color of the room ID should match the corresponding room type button's background color.
-- Day boxes with assigned booking should display the last three characters of the booking ID. Day boxes with assigned booking background color should be `#DDXDYD`, where `XY` are the last two digits of the booking ID. (E.g booking code: `B125`, background color code: `#DD2D5D`). Day boxes without assigned booking show `---` string.
+- Day boxes with assigned booking should display the last three characters of the booking ID. Day boxes with assigned booking background color should be `#DDXDYD`, where `XY` are the last two digits of the booking ID (e.g., booking code: `B125`, background color code: `#DD2D5D`). Day boxes without assigned booking show `---`.
 - Clicking on a day in the calendar header adjusts the view to center around the selected day.
   - Days 1-7: Show June 1-15.
   - Days 24-30: Show June 16-30.
@@ -65,7 +65,7 @@ There are following sections in the page:
 - Allow dragging unassigned bookings to room rows in the calendar.
 - Enable drop only if the room is free during the booking interval.
 - Successful drop displays the booking ID in the calendar and removes it from the unassigned list.
-- Dragging a booking from the calendar to the unassigned list area unassigns the booking. The booking can be grabbed using any of the associated cells. If two booking IDs appear in a cell, you can grab the booking whose check-in date falls on that day. Successful drop displays the booking in the unassigned list and remove it from the calendar.
+- Dragging a booking from the calendar to the unassigned list area unassigns the booking. The booking can be grabbed using any of the associated cells. If two booking IDs appear in a cell, you can grab the booking whose check-in date falls on that day. Successful drop displays the booking in the unassigned list and removes it from the calendar.
 - Provide visual feedback for drag-and-drop actions.
 
 ### Reset Button
@@ -88,7 +88,7 @@ There are following sections in the page:
 ### Fullscreen Mode
 
 - When the user clicks the fullscreen button, toggle the fullscreen view of the browser window.
-- While in fullscreen mode, if the user clicks the exit fullscreen button or presses the ESC key on the keyboard, the fullscreen view will end, and the browser will return to the normal web page view
+- While in fullscreen mode, if the user clicks the exit fullscreen button or presses the ESC key on the keyboard, the fullscreen view will end, and the browser will return to the normal web page view.
 
 ## Instructions to the Competitor
 
