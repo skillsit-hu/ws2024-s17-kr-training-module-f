@@ -37,9 +37,10 @@ There are following sections in the page:
   - Days 24-30: Show June 16-30.
   - Other days: Center the selected day in a 15-day interval.
 - After the header, each row of the calendar represents a room in the hotel, and each cell represents a possible assignment of a booking to that room for a day.
+- If the check-out date of one booking and the check-in date of another booking fall on the same day for the same room, both booking IDs should be displayed in the cell in vertical order.
 - The background color of the Room ID should match the corresponding room type button's background color.
 - Day boxes with assigned booking should display the last three characters of the booking ID.
-- Day boxes with assigned booking background color should be `#ddddxx`, where `xx` are the last two digits of the booking ID.
+- Day boxes with assigned booking background color should be `#DDXDYD`, where `XY` are the last two digits of the booking ID. (E.g booking code: `B125`, background color code: `#DD2D5D`)
 
 ### Room Type Filtering
 
@@ -65,7 +66,7 @@ There are following sections in the page:
 - Allow dragging unassigned bookings to room rows in the calendar.
 - Enable drop only if the room is free during the booking interval.
 - Successful drop displays the booking ID in the calendar and removes it from the unassigned list.
-- Dragging a booking from the calendar to the unassigned list area unassigns the booking.
+- Dragging a booking from the calendar to the unassigned list area unassigns the booking. The booking can be grabbed using any of the associated cells. If two booking IDs appear in a cell, you can grab the booking whose check-in date falls on that day. Successful drop displays the booking in the unassigned list and remove it from the calendar.
 - Provide visual feedback for drag-and-drop actions.
 
 ### Reset Button
