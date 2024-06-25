@@ -28,7 +28,7 @@ There are the following sections in the page:
 
 ### Calendar View
 
-![Calendar View](assets/design/hhh-booking-assignments.png)
+![Calendar View](assets/design/hh-hotel-booking-assignments.png)
 
 - Display a calendar view showing 15 days at a time. Initially, show the interval from June 1 to June 15.
 - In the header, the numbers of the days are displayed.
